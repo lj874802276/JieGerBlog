@@ -91,10 +91,15 @@ let links: NavBarLink[] = resolveNavbarLinks(
 );
 
 // 处理导航栏 Logo 图片，image / url 类型支持亮暗色分别设置
+// image 模式下整张图替代「图标 + 文字」组合（用户提供的横版设计稿自带品牌名）
 const logoConfig = siteConfig.navbar.logo;
 const logoAlt = logoConfig?.alt || siteConfig.title;
 const logoIsImage = logoConfig?.type === "image" || logoConfig?.type === "url";
-const logoBaseClass = "navbar-logo h-7 w-7 mb-1 mr-2 object-contain";
+// image 模式按比例缩放（h-7 高、宽自适应），保留与图标模式相近的高度
+// icon 模式仍走固定的 28×28 尺寸
+const logoBaseClass = logoIsImage
+	? "navbar-logo h-7 w-auto mr-2 object-contain"
+	: "navbar-logo h-7 w-7 mb-1 mr-2 object-contain";
 
 const logoFiles = import.meta.glob<ImageMetadata>(
 	"../../**/*.{png,jpg,jpeg,webp,avif,gif,svg}",
@@ -184,11 +189,11 @@ const logoVariants = await Promise.all(
             <a href={url('/')} class="btn-plain scale-animation rounded-lg h-13 px-3 md:px-5 font-bold active:scale-95">
                 <div class:list={[
                     "flex flex-row items-center text-md",
-                    siteConfig.navbar.followTheme ? "text-(--primary)" : "dark:text-white text-black"
-                ]} style="font-family: var(--font-navbar-title, inherit)">
-                                    {logoConfig?.type === "icon" ? (
-                                        <Icon name={logoConfig.value || "material-symbols:home-pin-outline"} class="navbar-logo text-[1.75rem] mb-1 mr-2" />
-                                    ) : logoIsImage && logoVariants.length > 0 ? (
+                    !logoIsImage && (siteConfig.navbar.followTheme ? "text-(--primary)" : "dark:text-white text-black")
+                ]} style={!logoIsImage ? "font-family: var(--font-navbar-title, inherit)" : ""}>
+                                    {logoIsImage && logoVariants.length > 0 ? (
+                                        // image / url 模式：整张横版图替代「图标 + 文字」组合，
+                                        // 品牌名已包含在图里，不再渲染 navbarTitle
                                         logoVariants.map((variant) => variant.image ? (
                                             <Picture
                                                 src={variant.image}
@@ -197,17 +202,20 @@ const logoVariants = await Promise.all(
                                                 data-logo-theme={variant.theme}
                                                 formats={getImageFormats()}
                                                 fallbackFormat={getFallbackFormat()}
-                                                widths={[28, 56]}
+                                                widths={[120, 240]}
+                                                sizes="(max-width: 768px) 120px, 160px"
                                                 loading="eager"
                                                 fetchpriority="high"
                                             />
                                         ) : (
                                             <img src={variant.src} alt={logoAlt} class={variant.class} data-logo-theme={variant.theme} fetchpriority="high" />
                                         ))
+                                    ) : logoConfig?.type === "icon" ? (
+                                        <Icon name={logoConfig.value || "material-symbols:home-pin-outline"} class="navbar-logo text-[1.75rem] mb-1 mr-2" />
                                     ) : (
                                         <Icon name="material-symbols:home-pin-outline" class="navbar-logo text-[1.75rem] mb-1 mr-2" />
                                     )}
-                    {navbarTitle}
+                    {!logoIsImage && navbarTitle}
                 </div>
             </a>
             <div class:list={[

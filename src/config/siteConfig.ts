@@ -84,16 +84,23 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// Favicon 配置
-	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
+	// 浏览器会按需选择合适尺寸；theme="dark" 会在用户系统/站点为深色主题时替换为亮色变体
 	favicon: [
-		{
-			// 图标文件路径
-			src: "/favicon/jiegerbolg-32.png",
-			// 可选，指定主题 'light' | 'dark'
-			// theme: "light",
-			// 可选，图标大小
-			// sizes: "32x32",
-		},
+		// 默认（亮色 / 浅色系统主题）
+		{ src: "/favicon/jiegerbolg-32.png", sizes: "32x32" },
+		{ src: "/favicon/jiegerbolg-128.png", sizes: "128x128" },
+		{ src: "/favicon/jiegerbolg-180.png", sizes: "180x180" },
+		{ src: "/favicon/jiegerbolg-192.png", sizes: "192x192" },
+		// 显式亮色主题（与默认同图，覆盖更明确）
+		{ src: "/favicon/favicon-light-32.png", sizes: "32x32", theme: "light" },
+		{ src: "/favicon/favicon-light-128.png", sizes: "128x128", theme: "light" },
+		{ src: "/favicon/favicon-light-180.png", sizes: "180x180", theme: "light" },
+		{ src: "/favicon/favicon-light-192.png", sizes: "192x192", theme: "light" },
+		// 暗色主题：圆点提亮（浏览器深色标签栏上更醒目）
+		{ src: "/favicon/favicon-dark-32.png", sizes: "32x32", theme: "dark" },
+		{ src: "/favicon/favicon-dark-128.png", sizes: "128x128", theme: "dark" },
+		{ src: "/favicon/favicon-dark-180.png", sizes: "180x180", theme: "dark" },
+		{ src: "/favicon/favicon-dark-192.png", sizes: "192x192", theme: "dark" },
 	],
 
 	// 导航栏配置
@@ -111,7 +118,7 @@ export const siteConfig: SiteConfig = {
 			type: "image",
 			value: "assets/images/logo/jiegerbolg-light.png",
 			valueDark: "assets/images/logo/jiegerbolg-dark.png",
-			alt: "🍀",
+			alt: "JieGerBolg",
 		},
 		// 导航栏标题
 		title: "JieGerBolg",
