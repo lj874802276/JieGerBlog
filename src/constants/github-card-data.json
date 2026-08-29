@@ -5,6 +5,12 @@
 		"avatarUrl": "https://avatars.githubusercontent.com/u/43440669?v=4",
 		"license": "MIT"
 	},
+	"lj874802276/jiegerblog": {
+		"description": "JieGer 的个人博客，基于 Firefly Astro 主题二次开发!",
+		"language": "Astro",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/18495141?v=4",
+		"license": "MIT"
+	},
 	"saicaca/fuwari": {
 		"description": "✨A static blog template built with Astro. ",
 		"language": "Astro",
