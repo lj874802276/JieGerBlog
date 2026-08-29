@@ -57,8 +57,10 @@ export const commentConfig: CommentConfig = {
 		repo: "lj874802276/JieGerBlog",
 		// 设置 Giscus 评论系统仓库ID
 		repoId: "R_kgDOUHJTvA",
-		// 设置 Giscus 评论系统分类（仓库默认已有的 Announcements 分类）
-		category: "Announcements",
+		// 设置 Giscus 评论系统分类（仓库已建的真实分类：博客指南/文章示例）
+		// 用名匹配。仓库默认并不自动建 Announcements 分类（这是 GitHub 常见误解），
+		// 实际只有用户手动建过的两个分类 giscus 才能解析到。
+		category: "博客指南",
 		// 分类ID留空，giscus 按上方 category 名自动匹配（避免指向上游旧仓库分类）
 		// 获取 Giscus 评论系统映射方式
 		mapping: "title",
