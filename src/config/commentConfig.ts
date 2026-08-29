@@ -56,11 +56,10 @@ export const commentConfig: CommentConfig = {
 		// 设置 Giscus 评论系统仓库
 		repo: "lj874802276/JieGerBolg",
 		// 设置 Giscus 评论系统仓库ID
-		repoId: "R_kgD2gfdFGd",
+		repoId: "R_kgDOUHJTvA",
 		// 设置 Giscus 评论系统分类
 		category: "General",
-		// 获取 Giscus 评论系统分类ID
-		categoryId: "DIC_kwDOKy9HOc4CegmW",
+		// 分类ID留空，giscus 按上方 category 名自动匹配（避免指向上游旧仓库分类）
 		// 获取 Giscus 评论系统映射方式
 		mapping: "title",
 		// 获取 Giscus 评论系统严格模式
