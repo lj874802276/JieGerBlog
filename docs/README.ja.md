@@ -17,7 +17,7 @@
 > 
 > [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z41NQALY)
 >
-> **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
+> **QQ交流群：[320797886](https://qun.qq.com/member.html?gid=320797886)**
 > 
 > ![GitHub License](https://img.shields.io/github/license/lj874802276/JieGerBolg)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lj874802276/JieGerBolg)
