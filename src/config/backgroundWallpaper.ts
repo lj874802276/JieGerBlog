@@ -4,7 +4,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 壁纸模式："banner" 横幅壁纸，"fullscreen" 全屏壁纸，"overlay" 覆盖透明，"none" 纯色背景无壁纸
 	mode: "banner",
 	// 是否启用背景视频播放，配置后将在导航栏显示视频播放按钮
-	playerEnable: true,
+	// 注：上游 firefly.mp4 外链已移除；如需自定义背景视频，将视频放入
+	// public/assets/videos/ 后在此设为 true 并取消下方 playerUrl 注释
+	playerEnable: false,
 	/**
 	 * 背景图片配置
 	 * 图片路径支持三种格式：
@@ -60,7 +62,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
 		// playerUrl: "/assets/videos/jiegerbolg.mp4",
-		playerUrl: "https://bed.twoleaf.cn/file/1785658612716_firefly.mp4",
+		// 上游 firefly.mp4 外链已移除（bed.twoleaf.cn 为第三方图床且携带 firefly 品牌名）。
+		// 需要背景视频时，将自有视频放入 public/assets/videos/ 并改为本地路径后启用 playerEnable。
+		// playerUrl: "/assets/videos/jiegerbolg.mp4",
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
