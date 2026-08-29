@@ -78,7 +78,7 @@ export const booknavConfig: BooknavGroup[] = [
 				title: "JieGerBlog",
 				url: "https://github.com/lj874802276/JieGerBlog",
 				desc: "清晰美观的 Astro 个人博客主题模板",
-				icon: "/favicon/jiegerbolg-32.png",
+				icon: "/favicon/jiegerblog-32.png",
 				weight: 10,
 			},
 		],

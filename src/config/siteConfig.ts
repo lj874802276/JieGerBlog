@@ -87,10 +87,10 @@ export const siteConfig: SiteConfig = {
 	// 浏览器会按需选择合适尺寸；theme="dark" 会在用户系统/站点为深色主题时替换为亮色变体
 	favicon: [
 		// 默认（亮色 / 浅色系统主题）
-		{ src: "/favicon/jiegerbolg-32.png", sizes: "32x32" },
-		{ src: "/favicon/jiegerbolg-128.png", sizes: "128x128" },
-		{ src: "/favicon/jiegerbolg-180.png", sizes: "180x180" },
-		{ src: "/favicon/jiegerbolg-192.png", sizes: "192x192" },
+		{ src: "/favicon/jiegerblog-32.png", sizes: "32x32" },
+		{ src: "/favicon/jiegerblog-128.png", sizes: "128x128" },
+		{ src: "/favicon/jiegerblog-180.png", sizes: "180x180" },
+		{ src: "/favicon/jiegerblog-192.png", sizes: "192x192" },
 		// 显式亮色主题（与默认同图，覆盖更明确）
 		{ src: "/favicon/favicon-light-32.png", sizes: "32x32", theme: "light" },
 		{ src: "/favicon/favicon-light-128.png", sizes: "128x128", theme: "light" },

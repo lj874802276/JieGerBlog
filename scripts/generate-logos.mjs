@@ -73,7 +73,7 @@ async function resizeFavicon(src, sizes, suffix = "", tint = null) {
 		const buf = await pipe.png().toBuffer();
 		const name = suffix
 			? `favicon-${suffix}-${size}.png`
-			: `jiegerbolg-${size}.png`;
+			: `jiegerblog-${size}.png`;
 		await write(resolve(FAVICON_DIR, name), buf);
 	}
 }
@@ -94,7 +94,7 @@ async function main() {
 		horizontalBuf,
 	);
 
-	// 2) favicon 亮色版（默认）：jiegerbolg-* + favicon-light-*
+	// 2) favicon 亮色版（默认）：jiegerblog-* + favicon-light-*
 	await resizeFavicon(SRC_FAVICON, [32, 128, 180, 192], "");
 	await resizeFavicon(SRC_FAVICON, [32, 128, 180, 192], "light");
 
