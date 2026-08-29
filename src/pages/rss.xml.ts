@@ -57,7 +57,7 @@ export async function GET(context: APIContext): Promise<Response> {
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.subtitle || "No description",
-		site: context.site ?? "https://gitee.com/Destiny_cc/JieGerBolg",
+		site: context.site ?? "https://lj874802276.github.io",
 		customData: `<templateTheme>JieGerBolg</templateTheme>
 		<templateThemeVersion>${pkg.version}</templateThemeVersion>
 		<templateThemeUrl>https://github.com/lj874802276/JieGerBolg</templateThemeUrl>
