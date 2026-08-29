@@ -85,8 +85,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
-			// 打赏
-			LinkPresets.Sponsor,
 
 			// 关于页面
 			LinkPresets.About,
@@ -102,25 +100,25 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/lj874802276/JieGerBolg",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				url: "https://gitee.com/Destiny_cc/JieGerBolg",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				url: "https://qun.qq.com/member.html?gid=320797886",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
+				name: "JieGerBolg文档",
+				url: "https://gitee.com/Destiny_cc/JieGerBolg",
 				external: true,
 				icon: "material-symbols:docs",
 			},
@@ -130,7 +128,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 文档链接
 	// links.push({
 	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
+	// 	url: "https://gitee.com/Destiny_cc/JieGerBolg",
 	// 	external: true,
 	// 	icon: "material-symbols:docs",
 	// });
@@ -226,12 +224,6 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/myanimelist/",
 		icon: "material-symbols:menu-book",
 		pageKey: "mal",
-	},
-	Sponsor: {
-		name: "打赏",
-		url: "/sponsor/",
-		icon: "material-symbols:favorite",
-		pageKey: "sponsor",
 	},
 	About: {
 		name: "关于我",

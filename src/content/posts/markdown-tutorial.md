@@ -9,7 +9,7 @@ licenseName: "未授权"
 author: emn178
 sourceLink: "https://github.com/emn178/markdown"
 slug: markdown-tutorial
-series: "Firefly 功能示例2"
+series: "JieGerBolg 功能示例2"
 seriesOrder: 1
 ---
 

@@ -2,12 +2,12 @@
 title: Markdown 扩展功能
 published: 1970-01-01
 updated: 1970-01-01
-description: "了解 Firefly 中的 Markdown 功能"
+description: "了解 JieGerBolg 中的 Markdown 功能"
 image: ""
-tags: [演示, 示例, Markdown, Firefly]
+tags: [演示, 示例, Markdown, JieGerBolg]
 category: "文章示例"
 slug: markdown-extended
-series: "Firefly 功能示例2"
+series: "JieGerBolg 功能示例2"
 seriesOrder: 2
 ---
 
@@ -15,17 +15,17 @@ seriesOrder: 2
 
 您可以添加链接到 GitHub 仓库的动态卡片，在页面加载时，仓库信息会从 GitHub API 获取。
 
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="lj874802276/JieGerBolg"}
 
-使用代码 `::github{repo="CuteLeaf/Firefly"}` 创建 GitHub 仓库卡片。
+使用代码 `::github{repo="lj874802276/JieGerBolg"}` 创建 GitHub 仓库卡片。
 
 ```markdown
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="lj874802276/JieGerBolg"}
 ```
 
 ## 提醒框(Admonitions)配置
 
-Firefly 采用了 [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts) 插件，支持了四种风格的提醒框主题：`GitHub`、`Obsidian`、`VitePress` 和 `Docusaurus`。您可以在 `src/config/siteConfig.ts` 中进行配置：
+JieGerBolg 采用了 [rehype-callouts](https://github.com/lin-stephanie/rehype-callouts) 插件，支持了四种风格的提醒框主题：`GitHub`、`Obsidian`、`VitePress` 和 `Docusaurus`。您可以在 `src/config/siteConfig.ts` 中进行配置：
 
 ```typescript
 // src/config/siteConfig.ts
@@ -264,18 +264,18 @@ export const siteConfig: SiteConfig = {
 **图注恒定底端对齐：** 不论上面的图片长宽如何变化，在同一行的所有图像解释文字（图注）都会对标到一条完美的水平基线上了。
 
 [grid]
-![示例图片一](./images/firefly1.avif)
-![示例图片二](./images/firefly2.avif)
-![示例图片二](./images/firefly3.avif)
+![示例图片一](./images/jiegerbolg1.avif)
+![示例图片二](./images/jiegerbolg2.avif)
+![示例图片二](./images/jiegerbolg3.avif)
 [/grid]
 
 **基本语法**
 
 ```markdown
 [grid]
-![示例图片一](./images/firefly1.avif)
-![示例图片二](./images/firefly2.avif)
-![示例图片二](./images/firefly3.avif)
+![示例图片一](./images/jiegerbolg1.avif)
+![示例图片二](./images/jiegerbolg2.avif)
+![示例图片二](./images/jiegerbolg3.avif)
 [/grid]
 ```
 

@@ -1,9 +1,9 @@
 
-<img src="./images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
+<img src="./images/1131.png" width = "350" height = "500" alt="JieGerBolg" align=right />
 
 <div align="center">
 
-# Firefly
+# JieGerBolg
 > 산뜻하고 아름다운 Astro 정적 블로그 테마 템플릿
 >
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen)
@@ -11,17 +11,16 @@
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
-> [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
-[![Forks](https://img.shields.io/github/forks/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/network/members)
-[![Issues](https://img.shields.io/github/issues/CuteLeaf/Firefly)](https://github.com/CuteLeaf/Firefly/issues)
+> [![Stars](https://img.shields.io/github/stars/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/stargazers)
+[![Forks](https://img.shields.io/github/forks/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/network/members)
+[![Issues](https://img.shields.io/github/issues/lj874802276/JieGerBolg)](https://github.com/lj874802276/JieGerBolg/issues)
 >
 > [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z41NQALY)
 >
 > **QQ 커뮤니티: [1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
 >
-> ![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/CuteLeaf/Firefly)
-[![Afdian Sponsor](https://img.shields.io/badge/Afdian-Sponsor%20Author-ff69b4.svg)](https://ifdian.net/a/cuteleaf)
+> ![GitHub License](https://img.shields.io/github/license/lj874802276/JieGerBolg)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lj874802276/JieGerBolg)
 </div>
 
 
@@ -30,9 +29,9 @@
 **[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[한국어](README.ko.md)**
 
 🚀 빠른 안내:
-[**🖥️온라인 데모**](https://firefly.cuteleaf.cn/) /
-[**📝문서**](https://docs-firefly.cuteleaf.cn/) /
-[**🍀내 블로그**](https://blog.cuteleaf.cn)
+[**🖥️온라인 데모**](https://gitee.com/Destiny_cc/JieGerBolg) /
+[**📝문서**](https://gitee.com/Destiny_cc/JieGerBolg) /
+[**🍀프로젝트 저장소**](https://gitee.com/Destiny_cc/JieGerBolg)
 
 ⚡ 정적 사이트 생성: Astro 기반의 매우 빠른 로딩 속도와 SEO 최적화
 
@@ -59,15 +58,15 @@
 
 >[!TIP]
 >
->Firefly는 Astro 프레임워크와 Fuwari 템플릿을 기반으로 개발된 산뜻하고 아름다운 현대식 개인 블로그 테마 템플릿입니다. 기술 애호가와 콘텐츠 제작자를 위해 설계되었으며, 현대적인 웹 기술 스택과 다양한 기능 모듈, 자유롭게 사용자 지정할 수 있는 인터페이스를 제공하여 전문적이고 보기 좋은 개인 블로그를 손쉽게 만들 수 있습니다.
+>JieGerBolg는 Astro 프레임워크와 Fuwari 템플릿을 기반으로 개발된 산뜻하고 아름다운 현대식 개인 블로그 테마 템플릿입니다. 기술 애호가와 콘텐츠 제작자를 위해 설계되었으며, 현대적인 웹 기술 스택과 다양한 기능 모듈, 자유롭게 사용자 지정할 수 있는 인터페이스를 제공하여 전문적이고 보기 좋은 개인 블로그를 손쉽게 만들 수 있습니다.
 >
 >**Firefly의 컴포넌트 디자인이나 관련 코드를 참고하거나 사용하는 경우, 출처가 Firefly임을 밝혀 주세요.**
 >
->Firefly는 원본 fuwari 레이아웃도 유지하고 있어 구성 파일에서 취향에 맞게 자유롭게 전환할 수 있습니다.
+>JieGerBolg는 원본 fuwari 레이아웃도 유지하고 있어 구성 파일에서 취향에 맞게 자유롭게 전환할 수 있습니다.
 >
->**더 많은 레이아웃 구성과 데모는 [Firefly 레이아웃 시스템 상세 안내](https://firefly.cuteleaf.cn/posts/guide/firefly-layout-system/)를 확인해 주세요.**
+>**더 많은 레이아웃 구성과 데모는 [JieGerBolg 레이아웃 시스템 상세 안내](https://gitee.com/Destiny_cc/JieGerBolg)를 확인해 주세요.**
 >
->Firefly는 i18n 다국어 UI를 지원하지만, 중국어 간체를 제외한 언어는 AI로 번역되었습니다. 오류를 발견하면 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)를 보내 개선에 참여해 주세요.
+>JieGerBolg는 i18n 다국어 UI를 지원하지만, 중국어 간체를 제외한 언어는 AI로 번역되었습니다. 오류를 발견하면 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)를 보내 개선에 참여해 주세요.
 
 ## ✨ 기능
 
@@ -90,7 +89,7 @@
 - [x] **테마 색상 사용자 지정** - 360° 색조 조절
 
 
-유용한 기능이나 개선 사항이 있다면 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)를 보내 주세요.
+유용한 기능이나 개선 사항이 있다면 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)를 보내 주세요.
 
 ## 🚀 빠른 시작
 
@@ -103,15 +102,15 @@
 
 1. **저장소 복제:**
    ```bash
-   git clone https://github.com/CuteLeaf/Firefly.git
-   cd Firefly
+   git clone https://github.com/lj874802276/JieGerBolg.git
+   cd JieGerBolg
    ```
 
-   **먼저 자신의 저장소로 [Fork](https://github.com/CuteLeaf/Firefly/fork)한 다음 복제하는 것을 권장합니다. Fork 전에 Star를 누르는 것도 잊지 마세요!**
+   **먼저 자신의 저장소로 [Fork](https://github.com/lj874802276/JieGerBolg/fork)한 다음 복제하는 것을 권장합니다. Fork 전에 Star를 누르는 것도 잊지 마세요!**
 
    ```bash
-   git clone https://github.com/you-github-name/Firefly.git
-   cd Firefly
+   git clone https://github.com/lj874802276/JieGerBolg.git
+   cd JieGerBolg
    ```
 3. **의존성 설치:**
    ```bash
@@ -145,12 +144,12 @@
 
    설치 명령: `pnpm install`
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
-   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lj874802276/JieGerBolg&project-name=JieGerBolg&repository-name=JieGerBolg)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lj874802276/JieGerBolg)
 
 ## 📖 구성 안내
 
-> 📚 **상세 구성 문서**: 전체 구성 안내는 [Firefly 문서](https://docs-firefly.cuteleaf.cn/)를 확인하세요.
+> 📚 **상세 구성 문서**: 전체 구성 안내는 [JieGerBolg 문서](https://gitee.com/Destiny_cc/JieGerBolg)를 확인하세요.
 
 ### 웹사이트 언어 설정
 
@@ -196,8 +195,7 @@ src/
 │   ├── mermaidConfig.ts          # Mermaid diagram configuration
 │   ├── plantumlConfig.ts         # PlantUML diagram configuration
 │   ├── profileConfig.ts          # User profile configuration
-│   ├── sidebarConfig.ts          # Sidebar layout configuration
-│   └── sponsorConfig.ts          # Sponsor configuration
+│   └── sidebarConfig.ts          # Sidebar layout configuration
 ```
 
 
@@ -238,15 +236,15 @@ location: China # Location
 일상 내용은 Markdown을 지원합니다.
 ```
 
-[Memos](https://www.usememos.com/)를 데이터 소스로 사용할 수도 있습니다. `src/config/dynamicConfig.ts`의 `memos` 옵션을 구성하면 고정 항목 동기화와 이미지 첨부 표시를 지원하면서 Memos의 일상을 실시간으로 가져옵니다. 자세한 내용은 [일상 문서](https://docs-firefly.cuteleaf.cn/en/guide/dynamic.html)를 확인하세요.
+[Memos](https://www.usememos.com/)를 데이터 소스로 사용할 수도 있습니다. `src/config/dynamicConfig.ts`의 `memos` 옵션을 구성하면 고정 항목 동기화와 이미지 첨부 표시를 지원하면서 Memos의 일상을 실시간으로 가져옵니다. 자세한 내용은 [일상 문서](https://gitee.com/Destiny_cc/JieGerBolg)를 확인하세요.
 
 ## 🧩 Markdown 확장 문법
 
 Astro가 기본으로 지원하는 [GitHub Flavored Markdown](https://github.github.com/gfm/) 외에도 다음과 같은 Markdown 기능을 제공합니다.
 
-- 알림 블록(Admonitions) - GitHub, Obsidian, VitePress, Docusaurus 테마 구성 지원 ([미리 보기 및 사용법](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- GitHub 저장소 카드 ([미리 보기 및 사용법](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- Expressive Code 기반의 향상된 코드 블록 ([미리 보기](http://firefly.cuteleaf.cn/posts/code-examples/) / [문서](https://expressive-code.com/))
+- 알림 블록(Admonitions) - GitHub, Obsidian, VitePress, Docusaurus 테마 구성 지원 ([미리 보기 및 사용법](https://gitee.com/Destiny_cc/JieGerBolg))
+- GitHub 저장소 카드 ([미리 보기 및 사용법](https://gitee.com/Destiny_cc/JieGerBolg))
+- Expressive Code 기반의 향상된 코드 블록 ([미리 보기](https://gitee.com/Destiny_cc/JieGerBolg) / [문서](https://expressive-code.com/))
 
 ## 🧞 명령
 
@@ -303,7 +301,7 @@ MIT 라이선스에 따라 코드를 자유롭게 사용, 수정 및 배포할 �
 
 ## 🍀 기여자
 
-이 프로젝트에 기여해 주신 모든 분께 감사드립니다. 질문이나 제안이 있다면 [Issue](https://github.com/CuteLeaf/Firefly/issues) 또는 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)를 보내 주세요.
+이 프로젝트에 기여해 주신 모든 분께 감사드립니다. 질문이나 제안이 있다면 [Issue](https://github.com/lj874802276/JieGerBolg/issues) 또는 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)를 보내 주세요.
 
 ><a href="https://github.com/CuteLeaf/Firefly/graphs/contributors">
 >  <img src="https://contrib.rocks/image?repo=CuteLeaf/Firefly" />

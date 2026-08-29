@@ -34,10 +34,10 @@ yarn.lock
 *.iml
 
 # docs
-Firefly-docs/
+JieGerBolg-docs/
 
 # lite 版本
-Firefly-Lite/
+JieGerBolg-Lite/
 
 cache/
 package/

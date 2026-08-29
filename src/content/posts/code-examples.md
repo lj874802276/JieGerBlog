@@ -1,13 +1,13 @@
 ---
-title: Firefly 代码块示例
+title: JieGerBolg 代码块示例
 published: 1970-01-03
 pinned: false
-description: 在Firefly中使用表达性代码的代码块在 Markdown 中的外观。
-tags: [Markdown, Firefly]
+description: 在JieGerBolg中使用表达性代码的代码块在 Markdown 中的外观。
+tags: [Markdown, JieGerBolg]
 category: 文章示例
-image: ./images/firefly3.avif
+image: ./images/jiegerbolg3.avif
 slug: code-examples
-series: "Firefly 功能示例2"
+series: "JieGerBolg 功能示例2"
 seriesOrder: 5
 ---
 
@@ -409,7 +409,7 @@ yarn create astro
 
 ```js title="astro.config.mjs" showLineNumbers {2} ins={3}
 export default {
-  theme: "firefly",
+  theme: "jiegerbolg",
   codeGroup: true,
 };
 ```
@@ -448,10 +448,10 @@ console.log(a, b);
 
 `::: code-group` 和 `::: tip` 等 Docusaurus 风格提醒框都使用 `:::` 容器语法，而 micromark-directive 规定父子容器的冒号数必须不同，因此 `::: code-group` **无法嵌套在 `::: tip` 等提醒框内**（整块会失效）。
 
-这种情况改用 MDX 组件 [`TabGroup`](@/components/common/TabGroup.svelte)：MDX 组件不经过 `:::` 指令解析，在提醒框内外都能正常使用，也方便日后扩展更多 UI 组件。把文章后缀改为 `.mdx`，从统一入口 [`@/components/firefly-mdx`](@/components/firefly-mdx.ts) 引入（可一次引入多个组件）：
+这种情况改用 MDX 组件 [`TabGroup`](@/components/common/TabGroup.svelte)：MDX 组件不经过 `:::` 指令解析，在提醒框内外都能正常使用，也方便日后扩展更多 UI 组件。把文章后缀改为 `.mdx`，从统一入口 [`@/components/jiegerbolg-mdx`](@/components/jiegerbolg-mdx.ts) 引入（可一次引入多个组件）：
 
 ````mdx
-import { TabGroup } from "@/components/firefly-mdx";
+import { TabGroup } from "@/components/jiegerbolg-mdx";
 
 :::tip
 

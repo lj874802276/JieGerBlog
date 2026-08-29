@@ -1,16 +1,16 @@
 ---
 title: KaTeX 数学公式示例
 published: 1970-01-02
-description: 展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。
+description: 展示 JieGerBolg 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。
 tags: [KaTeX, Math, 示例]
 category: 文章示例
 image: api
 slug: katex-math-example
-series: "Firefly 功能示例2"
+series: "JieGerBolg 功能示例2"
 seriesOrder: 6
 ---
 
-本文展示了 [Firefly](https://github.com/CuteLeaf/Firefly) 主题对 KaTeX 数学公式的渲染支持。
+本文展示了 [JieGerBolg](https://github.com/lj874802276/JieGerBolg) 主题对 KaTeX 数学公式的渲染支持。
 
 ## 行内公式 (Inline)
 

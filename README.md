@@ -1,9 +1,9 @@
 
-<img src="./docs/images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
+<img src="./docs/images/1131.png" width = "350" height = "500" alt="JieGerBolg" align=right />
 
 <div align="center">
 
-# 流萤 / Firefly 
+# 流萤 / JieGerBolg 
 > 一款清新美观的 Astro 静态博客主题模板
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
@@ -11,17 +11,16 @@
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
-> [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
-[![Forks](https://img.shields.io/github/forks/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/network/members)
-[![Issues](https://img.shields.io/github/issues/CuteLeaf/Firefly)](https://github.com/CuteLeaf/Firefly/issues)
+> [![Stars](https://img.shields.io/github/stars/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/stargazers)
+[![Forks](https://img.shields.io/github/forks/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/network/members)
+[![Issues](https://img.shields.io/github/issues/lj874802276/JieGerBolg)](https://github.com/lj874802276/JieGerBolg/issues)
 > 
 > [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z41NQALY)
 >
 > **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
 > 
-> ![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/CuteLeaf/Firefly)
-[![爱发电打赏](https://img.shields.io/badge/爱发电-打赏作者-ff69b4.svg)](https://ifdian.net/a/cuteleaf)
+> ![GitHub License](https://img.shields.io/github/license/lj874802276/JieGerBolg)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lj874802276/JieGerBolg)
 
 </div>
 
@@ -31,9 +30,9 @@
 **[简体中文](README.md)** | **[繁體中文](docs/README.zh-TW.md)** | **[English](README.en.md)** | **[日本語](docs/README.ja.md)** | **[한국어](docs/README.ko.md)**
 
 🚀 快速指南：
-[**🖥️在线预览**](https://firefly.cuteleaf.cn/) /
-[**📝使用文档**](https://docs-firefly.cuteleaf.cn/) /
-[**🍀我的博客**](https://blog.cuteleaf.cn) 
+[**🖥️在线预览**](https://gitee.com/Destiny_cc/JieGerBolg) /
+[**📝使用文档**](https://gitee.com/Destiny_cc/JieGerBolg) /
+[**🍀项目仓库**](https://gitee.com/Destiny_cc/JieGerBolg) 
 
 ⚡ 静态站点生成: 基于 Astro 的超快加载速度和 SEO 优化
 
@@ -60,15 +59,15 @@
 
 >[!TIP]
 >
->Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+>JieGerBolg 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
 >
 >**如果你参考或使用了 Firefly 的组件设计和相关代码，请注明来自 Firefly。**
 >
->Firefly 也保留了原版 fuwari 的布局，可根据自己的喜好在配置文件中自由切换。
+>JieGerBolg 也保留了原版 fuwari 的布局，可根据自己的喜好在配置文件中自由切换。
 >
->**更多布局配置及演示请查看：[Firefly 布局系统详解](https://firefly.cuteleaf.cn/posts/guide/firefly-layout-system/)**
+>**更多布局配置及演示请查看：[JieGerBolg 布局系统详解](https://gitee.com/Destiny_cc/JieGerBolg)**
 >
->Firefly 支持 i18n 多语言 UI，但除了简体中文，其他语言均为 AI 翻译转换，如有错误，欢迎提交 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls) 修正。
+>JieGerBolg 支持 i18n 多语言 UI，但除了简体中文，其他语言均为 AI 翻译转换，如有错误，欢迎提交 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls) 修正。
 
 ## ✨ 功能特性
 
@@ -90,7 +89,7 @@
 - [x] **壁纸模式切换** - 横幅壁纸、全屏壁纸、全屏透明壁纸、纯色背景
 - [x] **主题色自定义** - 360° 色相调节
 
-如果你有好用的功能和优化，请提交 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)
+如果你有好用的功能和优化，请提交 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)
 
 ## 🚀 快速开始
 
@@ -103,15 +102,15 @@
 
 1. **克隆仓库：**
    ```bash
-   git clone https://github.com/Cuteleaf/Firefly.git
-   cd Firefly
+   git clone https://github.com/lj874802276/JieGerBolg.git
+   cd JieGerBolg
    ```
    
-   **先 [Fork](https://github.com/CuteLeaf/Firefly/fork) 到自己仓库再克隆（推荐），记得先点 Star 再 Fork 哦！**
+   **先 [Fork](https://github.com/lj874802276/JieGerBolg/fork) 到自己仓库再克隆（推荐），记得先点 Star 再 Fork 哦！**
 
    ```bash
-   git clone https://github.com/you-github-name/Firefly.git
-   cd Firefly
+   git clone https://github.com/lj874802276/JieGerBolg.git
+   cd JieGerBolg
    ```
 3. **安装依赖：**
    ```bash
@@ -145,12 +144,12 @@
 
    安装命令： `pnpm install`
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/CuteLeaf/Firefly&project-name=Firefly&repository-name=Firefly)
-   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CuteLeaf/Firefly)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lj874802276/JieGerBolg&project-name=JieGerBolg&repository-name=JieGerBolg)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lj874802276/JieGerBolg)
 
 ## 📖 配置说明
 
-> 📚 **详细配置文档**: 查看 [Firefly 使用文档](https://docs-firefly.cuteleaf.cn/) 获取完整的配置指南
+> 📚 **详细配置文档**: 查看 [JieGerBolg 使用文档](https://gitee.com/Destiny_cc/JieGerBolg) 获取完整的配置指南
 
 ### 设置网站语言
 
@@ -196,8 +195,7 @@ src/
 │   ├── mermaidConfig.ts          # Mermaid 图表配置
 │   ├── plantumlConfig.ts         # PlantUML 图表配置
 │   ├── profileConfig.ts          # 用户资料配置
-│   ├── sidebarConfig.ts          # 侧边栏布局配置
-│   └── sponsorConfig.ts          # 打赏配置
+│   └── sidebarConfig.ts          # 侧边栏布局配置
 ```
 
 ## ⚙️ 文章 Frontmatter
@@ -237,15 +235,15 @@ location: China # 位置
 动态内容可以使用 Markdown 语法。
 ```
 
-也支持对接 [Memos](https://www.usememos.com/) 作为数据源，在 `src/config/dynamicConfig.ts` 中配置 `memos` 选项即可实时获取 Memos 动态，支持置顶同步和图片附件展示。详见[动态文档](https://docs-firefly.cuteleaf.cn/zh/guide/dynamic.html)。
+也支持对接 [Memos](https://www.usememos.com/) 作为数据源，在 `src/config/dynamicConfig.ts` 中配置 `memos` 选项即可实时获取 Memos 动态，支持置顶同步和图片附件展示。详见[动态文档](https://gitee.com/Destiny_cc/JieGerBolg)。
 
 ## 🧩 Markdown 扩展语法
 
 除了 Astro 默认支持的 [GitHub Flavored Markdown](https://github.github.com/gfm/) 之外，还包含了一些额外的 Markdown 功能：
 
-- 提醒块（Admonitions） - 支持 GitHub, Obsidian, VitePress, Docusaurus 四种风格主题配置 ([预览和用法](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- GitHub 仓库卡片 ([预览和用法](https://firefly.cuteleaf.cn/posts/markdown-extended/))
-- 基于 Expressive Code 的增强代码块 ([预览](http://firefly.cuteleaf.cn/posts/code-examples/) / [文档](https://expressive-code.com/))
+- 提醒块（Admonitions） - 支持 GitHub, Obsidian, VitePress, Docusaurus 四种风格主题配置 ([预览和用法](https://gitee.com/Destiny_cc/JieGerBolg))
+- GitHub 仓库卡片 ([预览和用法](https://gitee.com/Destiny_cc/JieGerBolg))
+- 基于 Expressive Code 的增强代码块 ([预览](https://gitee.com/Destiny_cc/JieGerBolg) / [文档](https://expressive-code.com/))
 
 ## 🧞 指令
 
@@ -302,7 +300,7 @@ location: China # 位置
 
 ## 🍀 贡献者
 
-感谢以下贡献者对本项目做出的贡献，如有问题或建议，请提交 [Issue](https://github.com/CuteLeaf/Firefly/issues) 或 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)。
+感谢以下贡献者对本项目做出的贡献，如有问题或建议，请提交 [Issue](https://github.com/lj874802276/JieGerBolg/issues) 或 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)。
 
 ><a href="https://github.com/CuteLeaf/Firefly/graphs/contributors">
 >  <img src="https://contrib.rocks/image?repo=CuteLeaf/Firefly" />
