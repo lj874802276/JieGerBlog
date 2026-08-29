@@ -69,9 +69,9 @@ const adapter = process.env.CF_WORKERS
 export default defineConfig({
 	site: siteConfig.site_url,
 
-	// GitHub Pages 项目页部署在子路径 /JieGerBolg/ 下；仅在 CI（GitHub Actions）构建时启用子路径，
-	// 本地开发保持根路径 "/"，不影响 localhost:4321 调试体验。
-	base: process.env.GITHUB_ACTIONS === "true" ? "/JieGerBolg/" : "/",
+	// 使用自定义域名 bolg.mamkj.top 部署，GitHub Pages 自定义域名始终以根路径 "/" 提供站点，
+	// 因此 base 固定为 "/"，本地开发同样使用根路径，不影响 localhost:4321 调试体验。
+	base: "/",
 	trailingSlash: "always",
 
 	// 字体配置 - 只加载实际使用的字体，跳过未引用的以加快构建

@@ -43,9 +43,9 @@ export const siteConfig: SiteConfig = {
 	// 站点副标题
 	subtitle: "Demo site",
 
-	// 站点 URL（origin，不含子路径；GitHub Pages 项目页部署在 https://lj874802276.github.io/JieGerBolg/，
-	// 子路径 /JieGerBolg/ 由 astro.config 的 base 处理。若有自有域名，改为 https://你的域名 并把 base 改回 "/"）
-	site_url: "https://lj874802276.github.io",
+	// 站点 URL（origin，不含子路径；使用自定义域名 bolg.mamkj.top 部署，
+	// GitHub Pages 自定义域名始终以根路径 "/" 提供站点，故 base 固定为 "/"）
+	site_url: "https://bolg.mamkj.top",
 
 	// 站点描述
 	description:
