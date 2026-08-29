@@ -29,7 +29,7 @@ try {
 	const pkg = JSON.parse(
 		readFileSync(new URL("../../../package.json", import.meta.url), "utf-8"),
 	);
-	blogVersion = pkg.version || "JieGerBolg unknown";
+	blogVersion = pkg.version || "JieGerBlog unknown";
 } catch {}
 
 // Astro 版本（从已安装的 astro 包读取）
@@ -101,8 +101,8 @@ const mainItems = [
 	{
 		icon: "mdi:clover",
 		label: i18n(I18nKey.siteInfoBlogVersion),
-		value: `JieGerBolg v${blogVersion}`,
-		href: "https://github.com/lj874802276/JieGerBolg",
+		value: `JieGerBlog v${blogVersion}`,
+		href: "https://github.com/lj874802276/JieGerBlog",
 	},
 	{
 		icon: "material-symbols:copyright-outline",
@@ -127,7 +127,7 @@ const detailItems: {
 	},
 	{
 		icon: "mdi:clover",
-		label: "JieGerBolg",
+		label: "JieGerBlog",
 		value: `v${blogVersion}`,
 	},
 	{

@@ -1,20 +1,20 @@
 ---
-title: JieGerBolg 布局系统详解
+title: JieGerBlog 布局系统详解
 published: 1970-01-03
-description: 深入了解 JieGerBolg 的布局系统，包括侧边栏布局（左侧/双侧）和文章列表布局（列表/网格），以及自适应网格列数。
+description: 深入了解 JieGerBlog 的布局系统，包括侧边栏布局（左侧/双侧）和文章列表布局（列表/网格），以及自适应网格列数。
 image: ../images/jiegerbolg1.avif
-tags: [JieGerBolg, 布局, 博客, 指南]
+tags: [JieGerBlog, 布局, 博客, 指南]
 category: 博客指南
 slug: guide/jiegerbolg-layout-system
-series: "JieGerBolg 功能示例"
+series: "JieGerBlog 功能示例"
 seriesOrder: 2
 ---
 
 ## 📖 概述
 
-JieGerBolg 提供了灵活的布局系统，允许您根据内容需求和个人喜好自定义博客的视觉呈现方式。布局系统主要包括**侧边栏布局**和**文章列表布局**两个维度，它们相互配合，共同决定了页面的整体结构。
+JieGerBlog 提供了灵活的布局系统，允许您根据内容需求和个人喜好自定义博客的视觉呈现方式。布局系统主要包括**侧边栏布局**和**文章列表布局**两个维度，它们相互配合，共同决定了页面的整体结构。
 
-本文将详细介绍 JieGerBolg 的各种布局模式、它们的特点、使用场景，以及不同布局组合的效果。
+本文将详细介绍 JieGerBlog 的各种布局模式、它们的特点、使用场景，以及不同布局组合的效果。
 
 ---
 
@@ -33,7 +33,7 @@ JieGerBolg 提供了灵活的布局系统，允许您根据内容需求和个人
 
 ## 一、侧边栏布局系统
 
-侧边栏是博客页面的重要组成部分，用于展示导航、分类、标签、统计信息等辅助内容。JieGerBolg 支持两种侧边栏布局模式。
+侧边栏是博客页面的重要组成部分，用于展示导航、分类、标签、统计信息等辅助内容。JieGerBlog 支持两种侧边栏布局模式。
 
 ### 1.1 单侧边栏模式
 
@@ -116,7 +116,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 ## 二、文章列表布局系统
 
-文章列表是博客首页和归档页的核心内容，JieGerBolg 提供两种展示方式，并支持多种网格配置。
+文章列表是博客首页和归档页的核心内容，JieGerBlog 提供两种展示方式，并支持多种网格配置。
 
 ### 2.1 列表模式 (defaultMode: "list")
 
@@ -192,7 +192,7 @@ export const siteConfig: SiteConfig = {
 
 ### 2.3 瀑布流布局 (Masonry)
 
-JieGerBolg 的网格模式内置了智能瀑布流布局支持，解决了网格布局中因图文混合文章导致的卡片高度不一致导致的空白问题。
+JieGerBlog 的网格模式内置了智能瀑布流布局支持，解决了网格布局中因图文混合文章导致的卡片高度不一致导致的空白问题。
 
 ![瀑布流布局](../images/masonry.avif)
 
@@ -205,7 +205,7 @@ JieGerBolg 的网格模式内置了智能瀑布流布局支持，解决了网格
 
 ## 三、布局组合指南
 
-JieGerBolg 允许您自由组合侧边栏和文章列表布局。以下是各种组合的效果说明。
+JieGerBlog 允许您自由组合侧边栏和文章列表布局。以下是各种组合的效果说明。
 
 | 侧边栏模式 | 文章列表模式 | 推荐度 | 适用场景 |
 |-----------|------------|--------|---------|
@@ -218,7 +218,7 @@ JieGerBolg 允许您自由组合侧边栏和文章列表布局。以下是各种
 
 ## 四、响应式布局行为
 
-JieGerBolg 的布局系统具有智能的响应式设计，会根据屏幕尺寸自动调整。
+JieGerBlog 的布局系统具有智能的响应式设计，会根据屏幕尺寸自动调整。
 
 为了保证最佳阅读体验，系统会在屏幕变窄时自动调整布局：
 
@@ -238,7 +238,7 @@ JieGerBolg 的布局系统具有智能的响应式设计，会根据屏幕尺寸
 
 ## 六、总结
 
-JieGerBolg 的布局系统给予了您更大的自由度，您都可以通过简单的配置实现。
+JieGerBlog 的布局系统给予了您更大的自由度，您都可以通过简单的配置实现。
 
 我们建议您根据自己的内容类型和目标读者的设备偏好，尝试不同的组合，找到最适合您的博客形态。
 
@@ -246,7 +246,7 @@ JieGerBolg 的布局系统给予了您更大的自由度，您都可以通过简
 
 ## 相关链接
 
-- 📚 [侧边栏配置（见仓库）](https://gitee.com/Destiny_cc/JieGerBolg)
-- 📚 [站点配置（见仓库）](https://gitee.com/Destiny_cc/JieGerBolg)
-- 🏠 [JieGerBolg 开源仓库](https://gitee.com/Destiny_cc/JieGerBolg)
-- ⭐ [JieGerBolg GitHub](https://github.com/lj874802276/JieGerBolg)
+- 📚 [侧边栏配置（见仓库）](https://gitee.com/Destiny_cc/JieGerBlog)
+- 📚 [站点配置（见仓库）](https://gitee.com/Destiny_cc/JieGerBlog)
+- 🏠 [JieGerBlog 开源仓库](https://gitee.com/Destiny_cc/JieGerBlog)
+- ⭐ [JieGerBlog GitHub](https://github.com/lj874802276/JieGerBlog)

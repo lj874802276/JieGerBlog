@@ -57,10 +57,10 @@ export async function GET(context: APIContext): Promise<Response> {
 	return rss({
 		title: siteConfig.title,
 		description: siteConfig.subtitle || "No description",
-		site: context.site ?? "https://bolg.mamkj.top",
-		customData: `<templateTheme>JieGerBolg</templateTheme>
+		site: context.site ?? "https://blog.mamkj.top",
+		customData: `<templateTheme>JieGerBlog</templateTheme>
 		<templateThemeVersion>${pkg.version}</templateThemeVersion>
-		<templateThemeUrl>https://github.com/lj874802276/JieGerBolg</templateThemeUrl>
+		<templateThemeUrl>https://github.com/lj874802276/JieGerBlog</templateThemeUrl>
 		<lastBuildDate>${formatDateI18nWithTime(new Date())}</lastBuildDate>`,
 		items: feedItems,
 	});

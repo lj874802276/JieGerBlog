@@ -75,8 +75,8 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 90,
 		items: [
 			{
-				title: "JieGerBolg",
-				url: "https://github.com/lj874802276/JieGerBolg",
+				title: "JieGerBlog",
+				url: "https://github.com/lj874802276/JieGerBlog",
 				desc: "清晰美观的 Astro 个人博客主题模板",
 				icon: "/favicon/jiegerbolg-32.png",
 				weight: 10,
@@ -139,10 +139,10 @@ export const booknavConfig: BooknavGroup[] = [
 		weight: 70,
 		items: [
 			{
-				title: "JieGerBolg Docs",
-				url: "https://gitee.com/Destiny_cc/JieGerBolg",
-				desc: "JieGerBolg 主题模板文档",
-				icon: "https://gitee.com/Destiny_cc/JieGerBolg",
+				title: "JieGerBlog Docs",
+				url: "https://gitee.com/Destiny_cc/JieGerBlog",
+				desc: "JieGerBlog 主题模板文档",
+				icon: "https://gitee.com/Destiny_cc/JieGerBlog",
 				weight: 10,
 			},
 			{

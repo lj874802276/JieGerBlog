@@ -1,9 +1,9 @@
 
-<img src="./images/1131.png" width = "350" height = "500" alt="JieGerBolg" align=right />
+<img src="./images/1131.png" width = "350" height = "500" alt="JieGerBlog" align=right />
 
 <div align="center">
 
-# JieGerBolg
+# JieGerBlog
 > 一款清新美觀的 Astro 靜態博客主題模板
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
@@ -11,16 +11,16 @@
 ![Astro](https://img.shields.io/badge/Astro-7.2.0-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 >
-> [![Stars](https://img.shields.io/github/stars/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/stargazers)
-[![Forks](https://img.shields.io/github/forks/lj874802276/JieGerBolg?style=social)](https://github.com/lj874802276/JieGerBolg/network/members)
-[![Issues](https://img.shields.io/github/issues/lj874802276/JieGerBolg)](https://github.com/lj874802276/JieGerBolg/issues)
+> [![Stars](https://img.shields.io/github/stars/lj874802276/JieGerBlog?style=social)](https://github.com/lj874802276/JieGerBlog/stargazers)
+[![Forks](https://img.shields.io/github/forks/lj874802276/JieGerBlog?style=social)](https://github.com/lj874802276/JieGerBlog/network/members)
+[![Issues](https://img.shields.io/github/issues/lj874802276/JieGerBlog)](https://github.com/lj874802276/JieGerBlog/issues)
 > 
 > [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z41NQALY)
 >
 > **QQ交流群：[320797886](https://qun.qq.com/member.html?gid=320797886)**
 > 
-> ![GitHub License](https://img.shields.io/github/license/lj874802276/JieGerBolg)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lj874802276/JieGerBolg)
+> ![GitHub License](https://img.shields.io/github/license/lj874802276/JieGerBlog)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lj874802276/JieGerBlog)
 
 </div>
 
@@ -30,9 +30,9 @@
 **[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[한국어](README.ko.md)**
 
 🚀 快速指南：
-[**🖥️線上預覽**](https://gitee.com/Destiny_cc/JieGerBolg) /
-[**📝使用文檔**](https://gitee.com/Destiny_cc/JieGerBolg) /
-[**🍀項目倉庫**](https://gitee.com/Destiny_cc/JieGerBolg) 
+[**🖥️線上預覽**](https://gitee.com/Destiny_cc/JieGerBlog) /
+[**📝使用文檔**](https://gitee.com/Destiny_cc/JieGerBlog) /
+[**🍀項目倉庫**](https://gitee.com/Destiny_cc/JieGerBlog) 
 
 ⚡ 靜態站點生成: 基於 Astro 的超快載入速度和 SEO 優化
 
@@ -59,15 +59,15 @@
 
 >[!TIP]
 >
->JieGerBolg 是一款基於 Astro 框架和 Fuwari 模板開發的清新美觀且現代化個人部落格主題模板，專為技術愛好者和內容創作者設計。該主題融合了現代 Web 技術棧，提供了豐富的功能模組和高度可自訂的介面，讓您能夠輕鬆打造出專業且美觀的個人部落格網站。
+>JieGerBlog 是一款基於 Astro 框架和 Fuwari 模板開發的清新美觀且現代化個人部落格主題模板，專為技術愛好者和內容創作者設計。該主題融合了現代 Web 技術棧，提供了豐富的功能模組和高度可自訂的介面，讓您能夠輕鬆打造出專業且美觀的個人部落格網站。
 >
 >**如果你參考或使用了 Firefly 元件設計和相關程式碼，請註明來自 Firefly。**
 >
->JieGerBolg 也保留了原版 fuwari 的版面，可根據自己的喜好在配置檔案中自由切換。
+>JieGerBlog 也保留了原版 fuwari 的版面，可根據自己的喜好在配置檔案中自由切換。
 >
->**更多版面配置及示範請查看：[JieGerBolg 版面配置系統詳解](https://gitee.com/Destiny_cc/JieGerBolg)**
+>**更多版面配置及示範請查看：[JieGerBlog 版面配置系統詳解](https://gitee.com/Destiny_cc/JieGerBlog)**
 >
->JieGerBolg 支援 i18n 多語言 UI，但除了簡體中文，其他語言均為 AI 翻譯轉換，如有錯誤，歡迎提交 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls) 修正。
+>JieGerBlog 支援 i18n 多語言 UI，但除了簡體中文，其他語言均為 AI 翻譯轉換，如有錯誤，歡迎提交 [Pull Request](https://github.com/lj874802276/JieGerBlog/pulls) 修正。
 
 ## ✨ 功能特性
 
@@ -90,7 +90,7 @@
 - [x] **主題色自訂** - 360° 色相調節
 
 
-如果你有好用的功能和優化，請提交 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)
+如果你有好用的功能和優化，請提交 [Pull Request](https://github.com/lj874802276/JieGerBlog/pulls)
 
 ## 🚀 快速開始
 
@@ -103,15 +103,15 @@
 
 1. **克隆儲存庫：**
    ```bash
-   git clone https://github.com/lj874802276/JieGerBolg.git
-   cd JieGerBolg
+   git clone https://github.com/lj874802276/JieGerBlog.git
+   cd JieGerBlog
    ```
    
-   **先 [Fork](https://github.com/lj874802276/JieGerBolg/fork) 到自己儲存庫再克隆（推薦），記得先點 Star 再 Fork 哦！**
+   **先 [Fork](https://github.com/lj874802276/JieGerBlog/fork) 到自己儲存庫再克隆（推薦），記得先點 Star 再 Fork 哦！**
 
    ```bash
-   git clone https://github.com/lj874802276/JieGerBolg.git
-   cd JieGerBolg
+   git clone https://github.com/lj874802276/JieGerBlog.git
+   cd JieGerBlog
    ```
 3. **安裝依賴：**
    ```bash
@@ -148,12 +148,12 @@ Cloudflare Workers 部署：[【不用服务器，无需备案，零成本搭建
 
    安裝命令： `pnpm install`
 
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lj874802276/JieGerBolg&project-name=JieGerBolg&repository-name=JieGerBolg)
-   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lj874802276/JieGerBolg)
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/lj874802276/JieGerBlog&project-name=JieGerBlog&repository-name=JieGerBlog)
+   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lj874802276/JieGerBlog)
 
 ## 📖 配置說明
 
-> 📚 **詳細配置文檔**: 查看 [JieGerBolg使用文檔](https://gitee.com/Destiny_cc/JieGerBolg) 獲取完整的配置指南
+> 📚 **詳細配置文檔**: 查看 [JieGerBlog使用文檔](https://gitee.com/Destiny_cc/JieGerBlog) 獲取完整的配置指南
 
 ### 設定網站語言
 
@@ -239,15 +239,15 @@ location: China # 位置
 動態內容支援 Markdown 語法。
 ```
 
-也支援對接 [Memos](https://www.usememos.com/) 作為資料來源，在 `src/config/dynamicConfig.ts` 中設定 `memos` 選項即可即時取得 Memos 動態，支援置頂同步和圖片附件展示。詳見[動態檔案](https://gitee.com/Destiny_cc/JieGerBolg)。
+也支援對接 [Memos](https://www.usememos.com/) 作為資料來源，在 `src/config/dynamicConfig.ts` 中設定 `memos` 選項即可即時取得 Memos 動態，支援置頂同步和圖片附件展示。詳見[動態檔案](https://gitee.com/Destiny_cc/JieGerBlog)。
 
 ## 🧩 Markdown 擴充語法
 
 除了 Astro 預設支援的 [GitHub Flavored Markdown](https://github.github.com/gfm/) 之外，還包含了一些額外的 Markdown 功能：
 
-- 提醒塊（Admonitions） - 支援 GitHub, Obsidian, VitePress 三種風格主題配置 ([預覽和用法](https://gitee.com/Destiny_cc/JieGerBolg))
-- GitHub 儲存庫卡片 ([預覽和用法](https://gitee.com/Destiny_cc/JieGerBolg))
-- 基於 Expressive Code 的增強程式碼區塊 ([預覽](https://gitee.com/Destiny_cc/JieGerBolg) / [文檔](https://expressive-code.com/))
+- 提醒塊（Admonitions） - 支援 GitHub, Obsidian, VitePress 三種風格主題配置 ([預覽和用法](https://gitee.com/Destiny_cc/JieGerBlog))
+- GitHub 儲存庫卡片 ([預覽和用法](https://gitee.com/Destiny_cc/JieGerBlog))
+- 基於 Expressive Code 的增強程式碼區塊 ([預覽](https://gitee.com/Destiny_cc/JieGerBlog) / [文檔](https://expressive-code.com/))
 ## 🧞 指令
 
 下列指令均需要在專案根目錄執行：
@@ -303,7 +303,7 @@ location: China # 位置
 
 ## 🍀 貢獻者
 
-感謝以下貢獻者對本專案做出的貢獻，如有問題或建議，請提交 [Issue](https://github.com/lj874802276/JieGerBolg/issues) 或 [Pull Request](https://github.com/lj874802276/JieGerBolg/pulls)。
+感謝以下貢獻者對本專案做出的貢獻，如有問題或建議，請提交 [Issue](https://github.com/lj874802276/JieGerBlog/issues) 或 [Pull Request](https://github.com/lj874802276/JieGerBlog/pulls)。
 
 ><a href="https://github.com/CuteLeaf/Firefly/graphs/contributors">
 >  <img src="https://contrib.rocks/image?repo=CuteLeaf/Firefly" />

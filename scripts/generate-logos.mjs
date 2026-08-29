@@ -6,7 +6,7 @@ import { mkdir, rm } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { existsSync } from "node:fs";
 
-const PROJECT = "e:/.workbuddy/bolg/JieGerBolg";
+const PROJECT = "e:/.workbuddy/bolg/JieGerBlog";
 const SRC_HORIZONTAL =
 	"C:/Users/Administrator/.workbuddy/clipboard-images/clipboard-2026-08-29T10-20-09-547Z-82f12820.png"; // 圆点 + "JieGer的blog" 文字
 const SRC_FAVICON =

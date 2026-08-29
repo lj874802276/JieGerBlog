@@ -38,22 +38,22 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "JieGerBolg",
+	title: "JieGerBlog",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "一个默默无闻的码子的数字花园",
 
-	// 站点 URL（origin，不含子路径；使用自定义域名 bolg.mamkj.top 部署，
+	// 站点 URL（origin，不含子路径；使用自定义域名 blog.mamkj.top 部署，
 	// GitHub Pages 自定义域名始终以根路径 "/" 提供站点，故 base 固定为 "/"）
-	site_url: "https://bolg.mamkj.top",
+	site_url: "https://blog.mamkj.top",
 
 	// 站点描述
 	description:
-		"JieGerBolg 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"JieGerBlog 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
 
 	// 站点关键词
 	keywords: [
-		"JieGerBolg",
+		"JieGerBlog",
 		"Fuwari",
 		"Astro",
 		"ACGN",
@@ -118,10 +118,10 @@ export const siteConfig: SiteConfig = {
 			type: "image",
 			value: "assets/images/logo/jiegerbolg-light.png",
 			valueDark: "assets/images/logo/jiegerbolg-dark.png",
-			alt: "JieGerBolg",
+			alt: "JieGerBlog",
 		},
 		// 导航栏标题
-		title: "JieGerBolg",
+		title: "JieGerBlog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中

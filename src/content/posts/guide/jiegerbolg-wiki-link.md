@@ -1,16 +1,16 @@
 ---
-title: JieGerBolg Wiki Link 内部链接示例
+title: JieGerBlog Wiki Link 内部链接示例
 published: 1970-01-03
-description: 在 JieGerBolg 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
+description: 在 JieGerBlog 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
 image: ""
 tags: [Markdown, Obsidian, Wiki-Link, 文章示例]
 category: 博客指南
 slug: guide/jiegerbolg-wiki-link
-series: "JieGerBolg 功能示例"
+series: "JieGerBlog 功能示例"
 seriesOrder: 3
 ---
 
-JieGerBolg 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link 内部链接。链接目标填写文章的 slug 或文件路径，都不需要包含扩展名，具体匹配规则见下文「链接目标的三种写法」。
+JieGerBlog 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link 内部链接。链接目标填写文章的 slug 或文件路径，都不需要包含扩展名，具体匹配规则见下文「链接目标的三种写法」。
 
 ## 文章链接卡片
 
@@ -47,18 +47,18 @@ JieGerBolg 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link
 ```markdown
 请参阅 [[jiegerbolg|主题介绍]] 了解主题特性。
 
-[[jiegerbolg|JieGerBolg 主题介绍]]
+[[jiegerbolg|JieGerBlog 主题介绍]]
 ```
 
 请参阅 [[jiegerbolg|主题介绍]] 了解主题特性。
 
-[[jiegerbolg|JieGerBolg 主题介绍]]
+[[jiegerbolg|JieGerBlog 主题介绍]]
 
 一个例外：如果 `|` 后的文字只是把链接目标又抄了一遍（`[[guide/index|index]]`），会被当作无效别名忽略，仍然显示文章标题。Obsidian 在插入的链接时会自动补上这样的别名，避免笔记里显示一长串路径，这个例外就是为它准备的。
 
 ## 链接目标的三种写法
 
-用 Obsidian 管理文章时，把 `src/content/posts` 目录本身作为 Obsidian 仓库（vault）打开。下文提到的「仓库根目录」都指这个目录，它正好也是 JieGerBolg 解析链接路径的起点。
+用 Obsidian 管理文章时，把 `src/content/posts` 目录本身作为 Obsidian 仓库（vault）打开。下文提到的「仓库根目录」都指这个目录，它正好也是 JieGerBlog 解析链接路径的起点。
 
 链接目标按以下顺序匹配：
 
@@ -70,7 +70,7 @@ JieGerBolg 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link
 
 ### 第一种：slug 
 
-`slug` 写法在 Obsidian 中不支持，`slug` 是 JieGerBolg 自己的概念，Obsidian 不读取 frontmatter 里的 `slug`，所以按 slug 写的链接在 Obsidian 里既不会自动补全，也点不动，只有构建出的站点上能正常跳转。如果你主要在 Obsidian 里写作，用下面两种写法。
+`slug` 写法在 Obsidian 中不支持，`slug` 是 JieGerBlog 自己的概念，Obsidian 不读取 frontmatter 里的 `slug`，所以按 slug 写的链接在 Obsidian 里既不会自动补全，也点不动，只有构建出的站点上能正常跳转。如果你主要在 Obsidian 里写作，用下面两种写法。
 
 ### 第二种：文件路径（推荐）
 
@@ -82,11 +82,11 @@ JieGerBolg 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link
 
 [[guide/jiegerbolg-layout-system|jiegerbolg-layout-system]]
 
-因为仓库根目录就是 `src/content/posts`，Obsidian 写出的这个路径和 JieGerBolg 需要的路径完全一致，不需要任何额外转换。
+因为仓库根目录就是 `src/content/posts`，Obsidian 写出的这个路径和 JieGerBlog 需要的路径完全一致，不需要任何额外转换。
 
-上面这行末尾的 `|jiegerbolg-layout-system` 是 Obsidian 自动补的别名，JieGerBolg 会忽略它，卡片标题仍然取文章的 title，除非你把它修改和文件名不一致，才会变成你修改后的别名。
+上面这行末尾的 `|jiegerbolg-layout-system` 是 Obsidian 自动补的别名，JieGerBlog 会忽略它，卡片标题仍然取文章的 title，除非你把它修改和文件名不一致，才会变成你修改后的别名。
 
-内部链接类型下拉框里的**基于当前笔记的相对路径**只在同目录内可用：它给同目录文章生成的是裸文件名，能正常匹配；但跨目录时会生成 `../` 前缀，JieGerBolg 无法解析，链接会按原文显示。
+内部链接类型下拉框里的**基于当前笔记的相对路径**只在同目录内可用：它给同目录文章生成的是裸文件名，能正常匹配；但跨目录时会生成 `../` 前缀，JieGerBlog 无法解析，链接会按原文显示。
 
 ### 第三种：裸文件名
 

@@ -69,7 +69,7 @@ const adapter = process.env.CF_WORKERS
 export default defineConfig({
 	site: siteConfig.site_url,
 
-	// 使用自定义域名 bolg.mamkj.top 部署，GitHub Pages 自定义域名始终以根路径 "/" 提供站点，
+	// 使用自定义域名 blog.mamkj.top 部署，GitHub Pages 自定义域名始终以根路径 "/" 提供站点，
 	// 因此 base 固定为 "/"，本地开发同样使用根路径，不影响 localhost:4321 调试体验。
 	base: "/",
 	trailingSlash: "always",
@@ -356,7 +356,7 @@ export default defineConfig({
 		plugins: [tailwindcss()],
 		server: {
 			watch: {
-				ignored: ["**/package/**", "**/JieGerBolg-docs/**"],
+				ignored: ["**/package/**", "**/JieGerBlog-docs/**"],
 			},
 		},
 		resolve: {

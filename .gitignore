@@ -34,10 +34,10 @@ yarn.lock
 *.iml
 
 # docs
-JieGerBolg-docs/
+JieGerBlog-docs/
 
 # lite 版本
-JieGerBolg-Lite/
+JieGerBlog-Lite/
 
 cache/
 package/

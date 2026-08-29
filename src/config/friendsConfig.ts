@@ -33,10 +33,10 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
-		title: "JieGerBolg Docs",
-		imgurl: "https://gitee.com/Destiny_cc/JieGerBolg",
-		desc: "JieGerBolg主题模板文档",
-		siteurl: "https://gitee.com/Destiny_cc/JieGerBolg",
+		title: "JieGerBlog Docs",
+		imgurl: "https://gitee.com/Destiny_cc/JieGerBlog",
+		desc: "JieGerBlog主题模板文档",
+		siteurl: "https://gitee.com/Destiny_cc/JieGerBlog",
 		tags: ["Docs"],
 		weight: 9,
 		enabled: true,

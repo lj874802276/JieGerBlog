@@ -100,13 +100,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/lj874802276/JieGerBolg",
+				url: "https://github.com/lj874802276/JieGerBlog",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/Destiny_cc/JieGerBolg",
+				url: "https://gitee.com/Destiny_cc/JieGerBlog",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
@@ -117,8 +117,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "JieGerBolg文档",
-				url: "https://gitee.com/Destiny_cc/JieGerBolg",
+				name: "JieGerBlog文档",
+				url: "https://gitee.com/Destiny_cc/JieGerBlog",
 				external: true,
 				icon: "material-symbols:docs",
 			},
@@ -128,7 +128,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 文档链接
 	// links.push({
 	// 	name: "文档",
-	// 	url: "https://gitee.com/Destiny_cc/JieGerBolg",
+	// 	url: "https://gitee.com/Destiny_cc/JieGerBlog",
 	// 	external: true,
 	// 	icon: "material-symbols:docs",
 	// });

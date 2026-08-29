@@ -54,7 +54,7 @@ export const commentConfig: CommentConfig = {
 	//giscus评论系统配置
 	giscus: {
 		// 设置 Giscus 评论系统仓库
-		repo: "lj874802276/JieGerBolg",
+		repo: "lj874802276/JieGerBlog",
 		// 设置 Giscus 评论系统仓库ID
 		repoId: "R_kgDOUHJTvA",
 		// 设置 Giscus 评论系统分类

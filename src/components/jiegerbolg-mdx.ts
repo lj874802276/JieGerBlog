@@ -1,4 +1,4 @@
-// JieGerBolg 专属 MDX 文章 UI 组件集合
+// JieGerBlog 专属 MDX 文章 UI 组件集合
 //
 // MDX 文章里一次 import 即可使用多个组件：
 //   import { TabGroup, Timeline, TimelineItem } from "@/components/jiegerbolg-mdx";
