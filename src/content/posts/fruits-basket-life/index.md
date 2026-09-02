@@ -1,8 +1,8 @@
 ---
 title: 在「水果篮子」里，重新学会好好生活
-published: '2026-09-02'
+published: 2026-09-02
 description: 一部从 MAL 随手翻到的少女漫画，却把「家」与「日常」讲得比很多严肃文学都温柔。聊聊它为什么值得放进生活书单。
-image: ./jensenartofficial-backpacker-7628303-jpg.jpg
+image: /covers/fruits-basket-life.webp
 tags:
   - 漫画
   - 推荐
@@ -42,3 +42,5 @@ comment: true
 3. **治愈不是瞬间药方，而是日复一日的选择。** 草摩家的人不是被一句话救好的，是被透长久地、稳定地对待，才慢慢松动了心里的壳。
 
 这几点，放在我们自己柴米油盐的日子里，其实都成立。
+
+持续更新中，尽请期待！
